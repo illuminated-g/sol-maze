@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='windows-1252' standalone='yes'?>
+<CategoryOverrides>
+
+    <Category>
+	<Name localize="yes">Community Challenges</Name>
+	<Priority>1000</Priority>
+	<NonLocalizedName>Community Challenges</NonLocalizedName>
+    </Category>
+
+</CategoryOverrides>
