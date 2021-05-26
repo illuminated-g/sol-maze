@@ -12,24 +12,27 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Mouse.lvlib" Type="Library" URL="../Mouse/Mouse.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="maze.lvlibp" Type="LVLibp" URL="../../../../../../build/ppl/maze.lvlibp">
-				<Item Name="Data Types" Type="Folder">
-					<Item Name="Action.ctl" Type="VI" URL="../../../../../../build/ppl/maze.lvlibp/Action.ctl"/>
-					<Item Name="Adjacency.ctl" Type="VI" URL="../../../../../../build/ppl/maze.lvlibp/Adjacency.ctl"/>
-					<Item Name="Direction.ctl" Type="VI" URL="../../../../../../build/ppl/maze.lvlibp/Direction.ctl"/>
-					<Item Name="Distances.ctl" Type="VI" URL="../../../../../../build/ppl/maze.lvlibp/Distances.ctl"/>
-					<Item Name="Maze Level.ctl" Type="VI" URL="../../../../../../build/ppl/maze.lvlibp/Maze Level.ctl"/>
-					<Item Name="Position.ctl" Type="VI" URL="../../../../../../build/ppl/maze.lvlibp/Position.ctl"/>
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="maze.lvlibp" Type="LVLibp" URL="/&lt;vilib&gt;/IlluminatedG/Community Challenge/Maze/ppl/maze.lvlibp">
+					<Item Name="Data Types" Type="Folder">
+						<Item Name="Action.ctl" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/Community Challenge/Maze/ppl/maze.lvlibp/Action.ctl"/>
+						<Item Name="Adjacency.ctl" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/Community Challenge/Maze/ppl/maze.lvlibp/Adjacency.ctl"/>
+						<Item Name="Direction.ctl" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/Community Challenge/Maze/ppl/maze.lvlibp/Direction.ctl"/>
+						<Item Name="Distances.ctl" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/Community Challenge/Maze/ppl/maze.lvlibp/Distances.ctl"/>
+						<Item Name="Maze Level.ctl" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/Community Challenge/Maze/ppl/maze.lvlibp/Maze Level.ctl"/>
+						<Item Name="Position.ctl" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/Community Challenge/Maze/ppl/maze.lvlibp/Position.ctl"/>
+					</Item>
+					<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/Community Challenge/Maze/ppl/maze.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Application Directory.vi"/>
+					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/Community Challenge/Maze/ppl/maze.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+					<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/Community Challenge/Maze/ppl/maze.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
+					<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/Community Challenge/Maze/ppl/maze.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
+					<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/IlluminatedG/Community Challenge/Maze/ppl/maze.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Name.vi"/>
+					<Item Name="Maze.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/IlluminatedG/Community Challenge/Maze/ppl/maze.lvlibp/Maze/Maze.lvclass"/>
+					<Item Name="MazeGen.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/IlluminatedG/Community Challenge/Maze/ppl/maze.lvlibp/MazeGen/MazeGen.lvclass"/>
+					<Item Name="Mouse.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/IlluminatedG/Community Challenge/Maze/ppl/maze.lvlibp/Mouse/Mouse.lvclass"/>
+					<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/IlluminatedG/Community Challenge/Maze/ppl/maze.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
+					<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/IlluminatedG/Community Challenge/Maze/ppl/maze.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				</Item>
-				<Item Name="Application Directory.vi" Type="VI" URL="../../../../../../build/ppl/maze.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../../../build/ppl/maze.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="../../../../../../build/ppl/maze.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
-				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../../../../../../build/ppl/maze.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
-				<Item Name="Maze.lvclass" Type="LVClass" URL="../../../../../../build/ppl/maze.lvlibp/Maze/Maze.lvclass"/>
-				<Item Name="MazeGen.lvclass" Type="LVClass" URL="../../../../../../build/ppl/maze.lvlibp/MazeGen/MazeGen.lvclass"/>
-				<Item Name="Mouse.lvclass" Type="LVClass" URL="../../../../../../build/ppl/maze.lvlibp/Mouse/Mouse.lvclass"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="../../../../../../build/ppl/maze.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../../../../../build/ppl/maze.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -54,7 +57,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Mouse PPL</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1367B4DE-F70B-4CFC-8A98-45F834E1F505}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BC7C2B04-CA12-4C35-87B8-35E0012074A5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Mouse.lvlib</Property>
