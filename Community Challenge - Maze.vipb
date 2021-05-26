@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-13 00:48:07" Modified_Date="2021-05-14 14:30:55" Creator="hal_dev" Comments="" ID="b36917f5fe6265b0b9d2d8662dab1555">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-13 00:48:07" Modified_Date="2021-05-25 18:32:12" Creator="hal_dev" Comments="" ID="34cae80ecb7c3149e0c8d776c5c7e16e">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_Community_Challenge_Maze</Package_File_Name>
     <Library_Version>0.8.0.14</Library_Version>
@@ -28,7 +28,13 @@
     <VI_Package_Configuration_File>Community Challenge - Maze.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>The maze community programming challenge.</One_Line_Description_Summary>
-      <Description/>
+      <Description>This package contains the libraries and test UI application for the Maze Community Challenge. This package installs the base PPL to vi.lib along with the executable that allows generating mazes and testing the mice you create.
+
+Additionally there is a project template complete with a minimal mouse class and build spec to build the PPL that can be loaded by the UI application. The UI application is accessible from the Tools menu under &lt;i&gt;Community Challenges&lt;/i&gt;.
+
+To test your mouse implementation, implement your code in the &lt;b&gt;Decide Action.vi&lt;/b&gt; and then build your mouse PPL. You can then load the mouse in the application by navigating the file dialog to where the PPL was built to (this will depend on where you created your project at).
+
+See the NI Forums post at https://forums.ni.com/t5/Community-Documents/Community-Programming-Challenge-Maze-Solving/ta-p/4150223 for information about participating, video walk-through links, and more updated information.</Description>
       <Copyright/>
       <Packager>Derrick Bommarito</Packager>
       <URL/>
