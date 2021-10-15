@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-13 00:48:07" Modified_Date="2021-05-25 21:25:24" Creator="hal_dev" Comments="" ID="716d40a4d3266f258159d8baf9da74ea">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-13 00:48:07" Modified_Date="2021-05-26 19:38:07" Creator="hal_dev" Comments="" ID="213db6b40692c9ec0c7cb246f340a773">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_Community_Challenge_Maze</Package_File_Name>
-    <Library_Version>1.0.0.18</Library_Version>
+    <Library_Version>1.0.0.19</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds\vip</Library_Output_Folder>
