@@ -11,8 +11,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Maze Library" Type="Folder">
-			<Item Name="App.lvlib" Type="Library" URL="../../../../../../App/App.lvlib"/>
-			<Item Name="Maze.lvlib" Type="Library" URL="../../../../../../Maze/Maze.lvlib"/>
+			<Item Name="App.lvlib" Type="Library" URL="../App/App.lvlib"/>
+			<Item Name="Demo.lvlib" Type="Library" URL="../Demo/Demo.lvlib"/>
+			<Item Name="Maze.lvlib" Type="Library" URL="../Maze/Maze.lvlib"/>
 		</Item>
 		<Item Name="Tester" Type="Folder">
 			<Item Name="Launch Tester.vi" Type="VI" URL="../Launch Tester.vi"/>
@@ -80,7 +81,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Demo.lvlib" Type="Library" URL="../../../../../../Demo/Demo.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Mouse LLB" Type="Source Distribution">
@@ -101,7 +101,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Maze Mouse.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{458B7D85-4ED5-4071-8E3F-F994EBCD9718}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Maze Mouse.llb</Property>
@@ -109,11 +109,12 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/Mouse LLB/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DBF51586-BDEA-4FCC-99C2-6C42AF9678CE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4ED26313-A8F3-46C4-BCAE-81A82E397B47}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Mouse.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].newName" Type="Str">built_Mouse.lvlib</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
