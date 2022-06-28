@@ -10,7 +10,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Tools Menu" Type="Folder">
+			<Item Name="LaunchMazeUI.vi" Type="VI" URL="../ToolsMenu/Summer of LabVIEW/LaunchMazeUI.vi"/>
+		</Item>
 		<Item Name="App.lvlib" Type="Library" URL="../App/App.lvlib"/>
+		<Item Name="Demo.lvlib" Type="Library" URL="../Demo/Demo.lvlib"/>
 		<Item Name="Maze.lvlib" Type="Library" URL="../Maze/Maze.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -93,7 +97,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F0B8C20E-E13B-47FD-914F-F98BEFD4767F}</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">maze.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../build/maze.exe</Property>

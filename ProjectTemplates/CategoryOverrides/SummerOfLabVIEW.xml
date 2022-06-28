@@ -2,9 +2,9 @@
 <CategoryOverrides>
 
     <Category>
-	<Name localize="yes">Community Challenges</Name>
+	<Name localize="yes">Summer of LabVIEW</Name>
 	<Priority>1000</Priority>
-	<NonLocalizedName>Community Challenges</NonLocalizedName>
+	<NonLocalizedName>Summer of LabVIEW</NonLocalizedName>
     </Category>
 
 </CategoryOverrides>

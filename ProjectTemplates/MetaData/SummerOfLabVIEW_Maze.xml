@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="Windows-1252" standalone="yes"?>
 <MetaData>
   <ProjectTemplate>
-    <Title localize="yes">Community Challenge - Maze</Title>
+    <Title localize="yes">Summer of LabVIEW - Maze</Title>
     <Description localize="yes">This project creates a minimal mouse implementation that you can use to easily start your maze solver programming challenge entry.</Description>
-    <Filters localize="yes">Community Challenge</Filters>
-    <Keywords localize="yes">community;challenge;maze</Keywords>
-    <LocationPath>IlluminatedG/Community Challenge - Maze</LocationPath>
+    <Filters localize="yes">Summer of LabVIEW</Filters>
+    <Keywords localize="yes">summer of labview;challenge;maze</Keywords>
+    <LocationPath>SummerOfLabVIEW/Community Challenge - Maze</LocationPath>
     <ProjectPath>template/Maze Mouse.lvproj</ProjectPath>
-    <ListboxImagePath>image/IG-Maze.png</ListboxImagePath>
+    <ListboxImagePath>image/sol-maze.png</ListboxImagePath>
     <SortPriority>250</SortPriority>
     <MetaDataClass>scripting/CCMazeMetaDataObj/CCMazeMetaDataObj.lvclass</MetaDataClass>
     <CustomVIPath>scripting/CCMazeMetaDataObj/PostCopyScripting.vi</CustomVIPath>
