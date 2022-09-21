@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-13 00:48:07" Modified_Date="2022-06-27 20:20:16" Creator="hal_dev" Comments="" ID="9fb3f11b101b700d484d93ce30c7bd9e">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-13 00:48:07" Modified_Date="2022-08-05 17:45:27" Creator="hal_dev" Comments="" ID="30b26de46383db02d83389e7428f9d3e">
   <Library_General_Settings>
     <Package_File_Name>summer_of_labview_maze</Package_File_Name>
     <Library_Version>1.0.0.33</Library_Version>
@@ -28,7 +28,11 @@
     <VI_Package_Configuration_File>Community Challenge - Maze.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>The maze Summer of LabVIEW programming challenge.</One_Line_Description_Summary>
-      <Description>To get started, open the Tools menu in a LabVIEW window and go to Summer of LabVIEW -&gt; Maze. This opens up the testing app that creates random mazes and lets you open and run your maze solver implementations.
+      <Description>Summer of LabVIEW is a program run by DNatt and DBomm initially to grow excitement and experience with LabVIEW development within NI.
+
+This Maze challenge is to create a maze solver implementation that would be run through a series of mazes for scoring. The scoring scheme used for Summer of LabVIEW was to run 4 mazes two times each and take the average action counts 
+
+To get started, open the Tools menu in a LabVIEW window and go to Summer of LabVIEW -&gt; Maze. This opens up the testing app that creates random mazes and lets you open and run your maze solver implementations.
 
 A project template is also installed that provides a starting mouse class and build spec to build the LLB that can be loaded by the UI application. In the project created from the template there is a readme for further steps.
 
@@ -112,24 +116,6 @@ To test your mouse implementation, implement your code in the &lt;b&gt;Decide Ac
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>ToolsMenu</Path>
-        <Destination>7</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>build/maze.exe</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>build/maze.ini</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
         <Path>ProjectTemplates/CategoryOverrides</Path>
         <Destination>9</Destination>
         <Additional_Destination>false</Additional_Destination>
@@ -158,22 +144,10 @@ To test your mouse implementation, implement your code in the &lt;b&gt;Decide Ac
         <Namespace/>
       </Namespace_Overrides>
       <Exclusions>
-        <Path>Demo Mouse.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Maze App.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Maze Lib.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>Intermediate Maze</Path>
       </Exclusions>
       <Exclusions>
         <Path>Intermediate Maze.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>build</Path>
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
