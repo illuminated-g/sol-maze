@@ -5,7 +5,7 @@
     <Description localize="yes">This project creates a minimal mouse implementation that you can use to easily start your maze solver programming challenge entry.</Description>
     <Filters localize="yes">Summer of LabVIEW</Filters>
     <Keywords localize="yes">summer of labview;challenge;maze</Keywords>
-    <LocationPath>SummerOfLabVIEW/Community Challenge - Maze</LocationPath>
+    <LocationPath>SummerOfLabVIEW/Summer of LabVIEW - Maze</LocationPath>
     <ProjectPath>template/Maze Mouse.lvproj</ProjectPath>
     <ListboxImagePath>image/sol-maze.png</ListboxImagePath>
     <SortPriority>250</SortPriority>

@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-13 00:48:07" Modified_Date="2022-08-05 17:45:27" Creator="hal_dev" Comments="" ID="30b26de46383db02d83389e7428f9d3e">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-13 00:48:07" Modified_Date="2024-02-18 15:47:10" Creator="hal_dev" Comments="" ID="ada2713ad876be769af0286050af0327">
   <Library_General_Settings>
     <Package_File_Name>summer_of_labview_maze</Package_File_Name>
-    <Library_Version>1.0.0.33</Library_Version>
+    <Library_Version>1.0.0.37</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\vip</Library_Output_Folder>
@@ -30,11 +30,9 @@
       <One_Line_Description_Summary>The maze Summer of LabVIEW programming challenge.</One_Line_Description_Summary>
       <Description>Summer of LabVIEW is a program run by DNatt and DBomm initially to grow excitement and experience with LabVIEW development within NI.
 
-This Maze challenge is to create a maze solver implementation that would be run through a series of mazes for scoring. The scoring scheme used for Summer of LabVIEW was to run 4 mazes two times each and take the average action counts 
+This Maze challenge is to create a maze solver implementation that would be run through a series of mazes for scoring. The scoring scheme used for Summer of LabVIEW was to run 4 mazes two times each and take the average action counts.
 
-To get started, open the Tools menu in a LabVIEW window and go to Summer of LabVIEW -&gt; Maze. This opens up the testing app that creates random mazes and lets you open and run your maze solver implementations.
-
-A project template is also installed that provides a starting mouse class and build spec to build the LLB that can be loaded by the UI application. In the project created from the template there is a readme for further steps.
+To get started, use the project template that is installed and available in the Create Project dialog.  The template provides a starting mouse class and build spec to build the LLB that can be loaded by the UI application. In the project created from the template there is a readme for further steps.
 
 To test your mouse implementation, implement your code in the &lt;b&gt;Decide Action.vi&lt;/b&gt; and then build your mouse LLB. You can then load the mouse in the application by navigating the file dialog to where the LLB was built to (this will depend on where you created your project at).</Description>
       <Copyright>Copyright (c) 2022, Derrick B</Copyright>
@@ -144,10 +142,16 @@ To test your mouse implementation, implement your code in the &lt;b&gt;Decide Ac
         <Namespace/>
       </Namespace_Overrides>
       <Exclusions>
-        <Path>Intermediate Maze</Path>
+        <Path>mazes</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Intermediate Maze.lvproj</Path>
+        <Path>.gitignore</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>LICENSE</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>README.md</Path>
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
